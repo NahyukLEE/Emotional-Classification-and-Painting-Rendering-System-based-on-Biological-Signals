@@ -18,6 +18,10 @@ Paper and Presentation are in Korean.
  - **Whanjin Lee** (School of Energy Systems Engineering, Chung-Ang Univ.)
 
 
+## Application
+### Rendering using SinGAN example
+![](imgs/rendering.jpg)
+
 ## System Flow
 The system flow of our project is as follows. 
 ![](imgs/SystemFlow.jpg)
@@ -25,53 +29,16 @@ The system flow of our project is as follows.
 2) Recommending reference paintings according to the emotional evaluation results.
 3) Rendering paintings for target image using [SinGAN](https://github.com/NahyukLEE/SinGAN).
 
+## Code
 
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
+### Install dependencies
+We recommend you to use Anaconda that already including mandotory packages. 
 ```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+python -m pip install -r requirements.txt
 ```
+Our code was tested with Python 3.6, Pytorch 1.7, CUDA 11.
+
+### Train Emotional Classification Model
+To train emotional classification models with your own brain waves dataset(*'ratio.csv'*), you can handle IPython notebook with *'model.ipynb'* . By using *dump* method in *joblib*, you can export your model as *'emotion_modle.pkl'*.
+
+### 
