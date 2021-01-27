@@ -1,3 +1,2 @@
-* text=auto
-* linguist-vendored
-*.py linguist-detectable=false
+*.py linguist-detectable=true
+*.ipynb linguist-detectable=false
