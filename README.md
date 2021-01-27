@@ -19,10 +19,11 @@ Paper and Presentation are in Korean.
 
 
 ## System Flow
-
-!![](imgs/SystemFlow.jpg)
-
-
+The system flow of our project is as follows. 
+![](imgs/SystemFlow.jpg)
+1) Measuring brain waves data and Emotional classification with them.
+2) Recommending reference paintings according to the emotional evaluation results.
+3) Rendering paintings for target image using [SinGAN](https://github.com/NahyukLEE/SinGAN).
 
 
 ## SmartyPants
