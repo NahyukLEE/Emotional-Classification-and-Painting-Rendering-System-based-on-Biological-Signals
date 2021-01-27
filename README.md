@@ -19,20 +19,19 @@ Paper and Presentation are in Korean.
 
 
 ## Application
-We use 2 emotion class *'happy'* and *'sad'* for test, and our System can generate paintings depend on user emotions, for example :
+We use 2 emotion class *'happy'* and *'sad'* for test, and our System can generate paintings depend on user emotions.
+
 ![](imgs/application.jpg)
 
 ## System Flow
 The system flow of our project is as follows. 
-![](imgs/SystemFlow.jpg)
-1) Measuring brain waves data and Emotional classification with them.
-2) Recommending reference paintings according to the emotional evaluation results.
-3) Rendering paintings for target image using [SinGAN](https://github.com/NahyukLEE/SinGAN).
 
-### Detail  #1 : Recommending reference paintings using Euclidean Distance
+### a) Recommending reference paintings using Euclidean Distance
+Measuring brain waves data and Emotional classification with them. Recommending reference paintings according to the emotional evaluation results.
 ![](imgs/recommending.jpg)
 
-### Detail  #2 : Rendering using SinGAN example
+### b) Rendering using SinGAN example
+Rendering paintings for target image using [SinGAN](https://github.com/NahyukLEE/SinGAN).
 ![](imgs/rendering.jpg)
 
 ## Code
