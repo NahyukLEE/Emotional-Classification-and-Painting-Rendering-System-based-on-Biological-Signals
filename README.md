@@ -19,10 +19,8 @@ Paper and Presentation are in Korean.
 
 
 ## Application
-### Rendering using SinGAN example
-![](imgs/rendering.jpg)
-### Recommending reference paintings using Euclidean Distance
-![](imgs/recommending.jpg)
+We use 2 emotion class *'happy'* and *'sad'* for test, and our System can generate paintings depend on user emotions, for example :
+![](imgs/application.jpg)
 
 ## System Flow
 The system flow of our project is as follows. 
@@ -30,6 +28,12 @@ The system flow of our project is as follows.
 1) Measuring brain waves data and Emotional classification with them.
 2) Recommending reference paintings according to the emotional evaluation results.
 3) Rendering paintings for target image using [SinGAN](https://github.com/NahyukLEE/SinGAN).
+
+### Detail  #1 : Recommending reference paintings using Euclidean Distance
+![](imgs/recommending.jpg)
+
+### Detail  #2 : Rendering using SinGAN example
+![](imgs/rendering.jpg)
 
 ## Code
 
