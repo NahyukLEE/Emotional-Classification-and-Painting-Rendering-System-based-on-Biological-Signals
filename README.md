@@ -21,6 +21,7 @@ Paper and Presentation are in Korean.
 ## Application
 We use 2 emotion class *'happy'* and *'sad'* for test, and our System can generate paintings depend on user emotions.
 
+
 ![](imgs/application.jpg)
 
 ## System Flow
@@ -46,4 +47,12 @@ Our code was tested with Python 3.6, Pytorch 1.7, CUDA 11.
 ### Train Emotional Classification Model
 To train emotional classification models with your own brain waves dataset(*'ratio.csv'*), you can handle IPython notebook with *'model.ipynb'* . By using *dump* method in *joblib*, you can export your model as *'emotion_modle.pkl'*.
 
-### 
+### Generating Paintings
+Before you generating paintings, save your image under "SinGAN/Input/Paint", and run the command
+```
+python main.py
+```
+
+## References
+- Tamar Rott Shaham, Tali Dekel, Tomer Michaeli "SinGAN: Learning a Generative Model from a Single Natural Image", ICCV 2019
+- 'SinGAN' Github Repository (https://github.com/tamarott/SinGAN)
