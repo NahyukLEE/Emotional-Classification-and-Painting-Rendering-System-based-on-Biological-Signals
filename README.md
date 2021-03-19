@@ -11,8 +11,8 @@ Paper and Presentation are in Korean.
 
 ### Our Team 
  - Byunghyun Bae (School of Pharmaceutics, Chung-Ang Univ.)
- - Hearyeon Seo (School of Mechanical Engineering, Chung-Ang Univ.)
- - **Nahyuk Lee** 🙋‍♂️ (School of Computer Science & Engineering, Chung-Ang Univ.)
+ - **Hearyeon Seo** 🙋‍(School of Mechanical Engineering, Chung-Ang Univ.)
+ - Nahyuk Lee ♂️ (School of Computer Science & Engineering, Chung-Ang Univ.)
  - Bo-lim Lee (School of Computer Science & Engineering, Chung-Ang Univ.)
  - Hayun Lee (School of Computer Science & Engineering, Chung-Ang Univ.)
  - Whanjin Lee (School of Energy Systems Engineering, Chung-Ang Univ.)
